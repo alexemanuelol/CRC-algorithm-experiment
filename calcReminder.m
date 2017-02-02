@@ -1,6 +1,7 @@
 function [ data ] = calcReminder( data, crcPoly )
-%CALCREMINDER Summary of this function goes here
-%   Detailed explanation goes here
+% This function divides data with cecPoly.
+% Returns the reminder of the division.
+% Both data and crc Poly are polynomials.
 
 
 for i=1:length(data)-(length(crcPoly)-1)

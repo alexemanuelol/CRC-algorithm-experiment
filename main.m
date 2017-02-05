@@ -44,5 +44,5 @@ dataLength
 insertedErrors
 error'
 
-plot(error)
-axis([0 insertedErrors 0 (cycles+ cycles/10)])
+plot(0:length(error) - 1, error)
+axis([0 (insertedErrors) 0 (cycles+ cycles/10)])
